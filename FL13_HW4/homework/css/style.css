@@ -1,0 +1,159 @@
+@media screen  and  (min-width: 900px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: Palladio, serif;
+        box-sizing: border-box;
+    }
+
+    .header{
+        display: flex;
+    }
+    .header-title{
+        flex-grow: 4;
+    }
+    .header-title h1{
+        font-size: 36px;
+        font-weight: normal;
+        text-transform: uppercase;
+        color: #000;
+        text-align: center;
+    }
+    nav{
+        display: inline-block;
+        align-self: center;
+        text-align: center;
+        flex-grow: 6;
+        word-spacing: 50px;
+        font-size: 24px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #777;
+    }
+    nav a:hover{
+        color: #bfba55;
+    }
+
+    .start-page{
+        background-image: url("../img/home-bg.jpg");
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin:content-box;
+        height:850px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        position:relative;
+        z-index:-1;
+    }
+
+    .start-page::before{
+        height:850px;
+        content:'';
+        display: block;
+        position: absolute;
+        width:100%;
+        z-index:1;
+        background-color: #000;
+        opacity: 0.7;
+    }
+     .start-page h2 {
+        color: #FFFFFF;
+        font-size: 48px;
+        z-index:2;
+    }
+    .start-page p{
+        color: #bfba55;
+        font-size: 16px;
+        z-index:2;
+    }
+    .start-button{
+        display: inline;
+        z-index:2;
+    }
+    .input-btn{
+        text-align: center;
+        margin-top: 25px;
+        padding: 10px;
+        height:50px;
+        border-radius: 25px;
+        border: 1px solid #777777;
+        width: 180px;
+        font-weight:500;
+        background-color: #FFFFFF;
+    }
+
+
+    .blog{
+        margin-top: 60px;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: grid;
+        justify-content: center;
+        text-align: center;
+    }
+    .blog-image img{
+        position: relative;
+        width: 100%;
+    }
+    .blog-title h2{
+        text-align: left;
+    }
+    .date{
+        display: flex;
+        align-items: center;
+    }
+    .date p{
+        padding-right: 30px;
+    }
+    .date img{
+        width:5%;
+        height:5%;
+        border-radius: 25px;
+    }
+    .text-container{
+        text-align: left;
+        color: #777777;
+    }
+    .blog-button{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    hr{
+        margin-left: 25%;
+        margin-right: 25%;
+        border: none;
+        background-color: #777777;
+        color: #777777;
+        height: 1px;
+    }
+    footer{
+       background-color: #000;
+    }
+    .footer{
+        margin-left: 25%;
+        margin-right: 25%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 70px;
+        padding: 40px 0;
+        color: #FFFFFF;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
