@@ -16,7 +16,7 @@
         font-size: 36px;
         font-weight: normal;
         text-transform: uppercase;
-        color: #000;
+        color: #777;
         text-align: center;
     }
     nav{
@@ -80,7 +80,7 @@
         padding: 10px;
         height:50px;
         border-radius: 25px;
-        border: 1px solid #777777;
+        border: 1px solid #777;
         width: 180px;
         font-weight:500;
         background-color: #FFFFFF;
@@ -116,7 +116,7 @@
     }
     .text-container{
         text-align: left;
-        color: #777777;
+        color: #777;
     }
     .blog-button{
         text-align: left;
@@ -126,8 +126,8 @@
         margin-left: 25%;
         margin-right: 25%;
         border: none;
-        background-color: #777777;
-        color: #777777;
+        background-color: #777;
+        color: #777;
         height: 1px;
     }
     footer{
