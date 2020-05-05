@@ -10,7 +10,6 @@ function convert(...args) {
     }
     return newArr;
 }
-
 // 2
 function executeforEach(arr, func) {
     for (let i = 0; i < arr.length; i++) {
@@ -18,7 +17,6 @@ function executeforEach(arr, func) {
     }
     return arr;
 }
-
 //3
 function mapArray(a, f) {
     for (let i = 0; i < a.length; i++) {
@@ -27,7 +25,6 @@ function mapArray(a, f) {
     }
     return a;
 }
-
 //4
 function filterArray(arr, func) {
     let newArr = [];
@@ -38,7 +35,6 @@ function filterArray(arr, func) {
     }
     return newArr;
 }
-
 //5
 function containsValue(arr, el) {
     let res = 0;
@@ -50,7 +46,6 @@ function containsValue(arr, el) {
     }
     return res > 0;
 }
-
 //6
 function flipOver(str) {
     let newStr = '';
@@ -61,7 +56,6 @@ function flipOver(str) {
     }while(len);
     return newStr;
 }
-
 //7
 function makeListFromRange(arg) {
     let newArr = [];
