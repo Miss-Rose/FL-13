@@ -10,7 +10,6 @@ function convert(...args) {
     }
     return newArr;
 }
-console.log(convert('1', 2, 3, '4'));
 
 // 2
 function executeforEach(arr, func) {
@@ -19,9 +18,6 @@ function executeforEach(arr, func) {
     }
     return arr;
 }
-executeforEach([1, 2, 3], function (el) {
-    console.log(el * 2)
-});
 
 //3
 function mapArray(a, f) {
@@ -31,10 +27,6 @@ function mapArray(a, f) {
     }
     return a;
 }
-console.log(mapArray([2, '5', 8], function (el) {
-    return el + 3
-}));
-
 
 //4
 function filterArray(arr, func) {
@@ -46,9 +38,6 @@ function filterArray(arr, func) {
     }
     return newArr;
 }
-console.log(filterArray([2, 5, 8], function (el) {
-    return el % 2 === 0
-}));
 
 //5
 function containsValue(arr, el) {
@@ -61,8 +50,6 @@ function containsValue(arr, el) {
     }
     return res > 0;
 }
-console.log(containsValue([2, 5, 8], 2)); // returns true
-console.log(containsValue([12, 4, 6], 5));// returns false
 
 //6
 function flipOver(str) {
@@ -74,7 +61,6 @@ function flipOver(str) {
     }while(len);
     return newStr;
 }
-console.log(flipOver('hey world')); // 'dlrow yeh'
 
 //7
 function makeListFromRange(arg) {
@@ -84,7 +70,6 @@ function makeListFromRange(arg) {
     }
     return newArr;
 }
-console.log(makeListFromRange([2, 7])); // [2, 3, 4, 5, 6, 7]
 
 //8
 const fruits = [
@@ -98,7 +83,6 @@ function getArrayOfKeys(obj, k) {
     }
     return newArr;
 }
-console.log(getArrayOfKeys(fruits, 'name'));// returns [‘apple’, ‘pineapple’]
 
 //9
 const rang1 = 10;
@@ -111,7 +95,6 @@ function substitute(arr) {
     }
     return arr;
 }
-console.log(substitute([58, 14, 48, 12, 31, 19, 10]));
 
 //10
 const curYear = 2020;
@@ -133,14 +116,8 @@ function getPastDay(date, num) {
 
 }
 
-console.log(getPastDay(date, 1)); // 1, (1 Jan 2020)
-console.log(getPastDay(date, 2)); // 31, (31 Dec 2019)
-console.log(getPastDay(date, 365)); // 2, (2 Jan 2019)
-
 //11
 function formatDate(data) {
     return `"${data.getFullYear()}/${data.getMonth() + 1}
     /${data.getUTCDate()} ${data.getHours()}:${data.getMinutes()}"`;
 }
-console.log(formatDate(new Date('6/15/2019 09:15:00')));
-console.log(formatDate(new Date())); // gets current local time
