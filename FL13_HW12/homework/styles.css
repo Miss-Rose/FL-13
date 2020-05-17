@@ -1,0 +1,10 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.none{
+    display: none;
+}
+.not-none {
+    display: block;
+}
