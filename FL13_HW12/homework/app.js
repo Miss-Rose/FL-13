@@ -1,7 +1,6 @@
 const width = 200;
 function createForm() {
     const form = document.createElement('div');
-//Title
     const titleLabel = document.createElement('label');
     titleLabel.innerHTML = 'Name';
     titleLabel.setAttribute('for', 'title');
@@ -11,7 +10,6 @@ function createForm() {
     form.appendChild(titleLabel);
     form.appendChild(titleInput);
     form.innerHTML += '<br><br>';
-//Author
     const authorLabel = document.createElement('label');
     authorLabel.innerHTML = 'Author';
     authorLabel.setAttribute('for', 'author');
@@ -21,7 +19,6 @@ function createForm() {
     form.appendChild(authorLabel);
     form.appendChild(authorInput);
     form.innerHTML += '<br><br>';
-//Plot
     const plotLabel = document.createElement('label');
     plotLabel.innerHTML = 'Plot';
     plotLabel.setAttribute('for', 'plot');
@@ -31,7 +28,6 @@ function createForm() {
     form.appendChild(plotLabel);
     form.appendChild(plotInput);
     form.innerHTML += '<br><br>';
-//Url
     const urlLabel = document.createElement('label');
     urlLabel.innerHTML = 'URL';
     urlLabel.setAttribute('for', 'url');
@@ -50,11 +46,11 @@ function addBook(){
         let div = document.createElement('div');
         div.id = id;
         container_list.appendChild(div);
-        let idishka = document.createElement('span');
+        let num = document.createElement('span');
         let pTitle = document.createElement('span');
         pTitle.innerHTML = title + '   ';
-        idishka.innerHTML = id+'. ';
-        div.appendChild(idishka);
+        num.innerHTML = id+'. ';
+        div.appendChild(num);
         div.appendChild(pTitle);
         let edit = document.createElement('button');
         edit.innerHTML = 'Edit';
