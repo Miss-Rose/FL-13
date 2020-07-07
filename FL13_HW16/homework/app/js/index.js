@@ -67,7 +67,6 @@ function postData() {
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     xhr.send(json);
 }
-
 function updateItem(id) {
     let item = JSON.stringify({
         name: input1.value,
@@ -77,7 +76,6 @@ function updateItem(id) {
     xhr.setRequestHeader('Content-type', 'application/json; charset=utf-8');
     xhr.send(item);
 }
-
 function deleteItem(id) {
     xhr.open('DELETE', `http://localhost:3000/users/${id}`);
     xhr.setRequestHeader('Authorization', `admin`);
