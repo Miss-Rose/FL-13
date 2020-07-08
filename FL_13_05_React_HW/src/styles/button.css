@@ -1,0 +1,46 @@
+.blue-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #9bffee #000 #2196f3;
+    border-radius: 6px;
+    background: linear-gradient(#9bffee, #2196f3) #5da8e3;
+    transition: 0.2s;
+}
+
+.blue-button:hover {
+    background: linear-gradient(#9bffee, #5da8e3) #5da8e3;
+    cursor: pointer
+}
+
+.blue-button:active {
+    background: linear-gradient(#9bffee, #1b41d7) #5da8e3;
+}
+
+.white-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: .5em 2em;
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #f9fdff #000 #8a969d;
+    border-radius: 6px;
+    background: linear-gradient(#f9fdff, #89a2ae) #c4d5dc;
+    transition: 0.2s;
+}
+
+.white-button:hover {
+    background: linear-gradient(#f9fdff, #6b7d8c) #acbdc4;
+    cursor: pointer
+}
+
+.white-button:active {
+    background: linear-gradient(#f9fdff, #586775) #8a969d;
+}
+

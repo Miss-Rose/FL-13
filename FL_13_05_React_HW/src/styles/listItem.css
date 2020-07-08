@@ -1,0 +1,15 @@
+.list {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+    padding: 0;
+}
+.list-item{
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    background-color: white;
+    border-radius: 9px;
+    cursor: pointer;
+    padding: 15px 12px;
+}
