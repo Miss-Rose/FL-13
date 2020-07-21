@@ -1,0 +1,23 @@
+.panel {
+    text-align: center;
+    margin-top: 50px;
+    input {
+        width: 70%;
+        border-radius: 8px;
+        height: 30px;
+        border: none;
+        padding: 0 6px;
+    }
+    button {
+        margin-left: 20px;
+        border: none;
+        border-radius: 8px;
+        background-color: #08b0da;
+        color: #fff;
+        padding: 6px;
+    }
+    button:hover {
+        cursor: pointer;
+    }
+}
+
